@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AIDE布局助手(内测)</string>
+	<string name="drawer_open"></string>
+	<string name="drawer_close"></string>
+	
+</resources>

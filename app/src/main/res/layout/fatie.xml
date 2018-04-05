@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/fatie_toolbar"
+		android:layout_width="match_parent"
+		android:layout_height="?attr/actionBarSize"
+		android:background="#3F51B5"
+		android:elevation="4dp"
+		android:theme="@style/toolBar"/>
+
+	<android.support.design.widget.CoordinatorLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical">
+
+			<android.support.design.widget.TextInputLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="4dp">
+
+				<EditText
+					android:singleLine="true"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:hint="这里输入标题"
+					android:id="@+id/fatieEditText1"/>
+
+			</android.support.design.widget.TextInputLayout>
+
+			<android.support.design.widget.TextInputLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="4dp">
+
+				<EditText
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:hint="这里输入内容"
+					android:id="@+id/fatieEditText2"/>
+
+			</android.support.design.widget.TextInputLayout>
+
+		</LinearLayout>
+
+		<android.support.design.widget.FloatingActionButton
+			android:background="?android:attr/selectableItemBackgroundBorderless"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom|end"
+			android:layout_margin="20dp"
+			android:src="@drawable/fabiao"
+			android:elevation="5dp"
+			android:id="@+id/fatieFloatingActionButton1"/>
+
+	</android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>
+

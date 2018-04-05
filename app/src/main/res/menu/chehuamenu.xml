@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+		
+    <item
+        android:id="@+id/fankui"
+        android:icon="@raw/xiaoheng5"
+        android:title="反馈建议"/>
+    <item
+        android:id="@+id/fenxiang"
+        android:icon="@raw/xiaoheng8"
+        android:title="分享软件"/>
+	<!--
+    <item
+        android:id="@+id/lianxi"
+        android:icon="@raw/xiaoheng1"
+        android:title="联系作者"/>
+	-->
+    <item
+        android:id="@+id/gonggao"
+        android:icon="@raw/xiaoheng2"
+        android:title="查看公告"/>
+	
+	<item
+        android:id="@+id/guanyu"
+        android:icon="@raw/xiaoheng6"
+        android:title="软件关于"/>
+	
+	</group>
+	
+	<group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+	<item
+        android:id="@+id/juanzheng"
+        android:icon="@raw/xiaoheng3"
+        android:title="捐赠作者"/>
+	
+	<item
+        android:id="@+id/tuicu"
+        android:icon="@raw/xiaoheng"
+        android:title="选择退出"/>
+	</group>
+	
+</menu>

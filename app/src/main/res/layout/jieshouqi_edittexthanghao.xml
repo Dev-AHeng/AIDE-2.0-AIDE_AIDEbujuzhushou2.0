@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/jieshouqi_edittexthanghaoLinearLayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<android.support.v7.widget.Toolbar
+		android:theme="@style/toolBar"
+		android:layout_width="match_parent"
+		android:layout_height="?attr/actionBarSize"
+		android:background="#3F51B5"
+		android:elevation="4dp"
+		android:id="@+id/jieshouqiedittexthanghaoToolbar1">
+
+	</android.support.v7.widget.Toolbar>
+
+	<HorizontalScrollView
+		android:scrollbars="none"
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<ScrollView
+			android:scrollbars="none"
+			android:layout_marginLeft="1dp"
+			android:layout_height="match_parent"
+			android:layout_width="0dp"
+			android:layout_weight="1.0">
+
+			<xiaoheng.kapian.Jiesouqi_edittexthanghao
+				android:textColor="#424242"
+				android:textSize="15sp"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:background="@null"
+				android:id="@+id/jieshouqiedittexthanghaoJiesouqi_edittexthanghao1"
+				android:minWidth="1000dp"
+				android:minHeight="1100dp"/>
+
+		</ScrollView>
+
+	</HorizontalScrollView>
+
+</LinearLayout>
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:background="@drawable/list_fenxiang">
+
+		<LinearLayout
+				android:id="@+id/list_fenxiangLinearLayout"
+				android:background="@drawable/list_fenxiang"
+				android:layout_width="match_parent"
+				android:layout_height="150dp"
+				android:orientation="vertical"
+				android:elevation="2dp"
+				android:layout_marginLeft="5dp"
+				android:layout_marginRight="5dp"
+				android:layout_marginTop="5dp"
+				android:layout_marginBottom="7dp">
+
+				<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="150dp"
+						android:orientation="vertical"
+						android:background="?android:attr/selectableItemBackground">
+
+						<LinearLayout
+								android:layout_height="wrap_content"
+								android:layout_width="match_parent"
+								android:orientation="horizontal"
+								android:gravity="center_vertical">
+
+								<LinearLayout
+										android:layout_height="53dp"
+										android:layout_width="53dp"
+										android:orientation="vertical"
+										android:background="@drawable/xiaoheng3"
+										android:gravity="center">
+
+										<TextView
+												android:layout_height="wrap_content"
+												android:layout_width="wrap_content"
+												android:text="HENG"/>
+
+								</LinearLayout>
+
+								<TextView
+										android:id="@+id/photoname"
+										android:layout_height="wrap_content"
+										android:layout_width="wrap_content"
+										android:text="加载中…"
+										android:textStyle="bold"
+										android:textSize="17sp"
+										android:singleLine="true"
+										android:layout_weight="1.0"/>
+
+						</LinearLayout>
+
+						<TextView
+								android:id="@+id/itempostTextView1"
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:maxLines="6"
+								android:text="加载中…"
+								android:textSize="13sp"
+								android:layout_marginLeft="5dp"
+								android:layout_marginRight="5dp"/>
+
+				</LinearLayout>
+
+		</LinearLayout>
+
+</LinearLayout>
+

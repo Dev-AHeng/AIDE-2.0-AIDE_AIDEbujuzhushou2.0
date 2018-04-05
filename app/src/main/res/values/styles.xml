@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="android:colorAccent">#FF00AA</item>item>
+        <!--状态栏颜色-->
+        <item name="colorPrimaryDark">@color/Indigo_colorPrimaryDark</item>
+        <!--Toolbar颜色-->
+        <item name="colorPrimary">@color/Indigo_colorPrimary</item>
+        <!--返回键样式-->
+        <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowToggle</item>
+		<!--侧滑menu字体大小-->
+		<item name="android:actionMenuTextAppearance">@style/MyMenuTextStyle</item>
+	</style>
+	<style name="AppTheme.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+    </style>
+	<style name="MyMenuTextStyle">
+        <item name="android:textSize">14sp</item>
+    </style>
+	<style name="toolBar">
+        <item name="colorControlNormal">#FFFFFF</item>
+	</style>
+	<style name="touming" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="colorPrimaryDark">@color/touming</item>
+		<item name="android:windowBackground">@color/touming</item>
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:colorAccent">#ff4081</item>item>
+	</style>
+</resources>
+

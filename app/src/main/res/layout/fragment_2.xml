@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<android.support.v4.widget.SwipeRefreshLayout
+		android:layout_below="@+id/fenxiang_toolbar"
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:id="@+id/mainSwipeRefreshLayout1">
+
+		<android.support.design.widget.CoordinatorLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<ListView
+				android:dividerHeight="-1dp"
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:id="@+id/listpost">
+
+			</ListView>
+
+			<android.support.design.widget.FloatingActionButton
+				android:background="?android:attr/selectableItemBackgroundBorderless"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="bottom|end"
+				android:layout_margin="20dp"
+				android:src="@drawable/fabiao"
+				android:elevation="5dp"
+				android:id="@+id/mainFloatingActionButton1"/>
+
+		</android.support.design.widget.CoordinatorLayout>
+
+	</android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical">
+
+	<android.support.v7.widget.Toolbar
+		android:theme="@style/toolBar"
+		android:layout_width="match_parent"
+		android:layout_height="?attr/actionBarSize"
+		android:background="#3F51B5"
+		android:elevation="4dp"
+		android:id="@+id/bmobfankuiToolbar1"/>
+
+	<android.support.design.widget.CoordinatorLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<ScrollView
+			android:layout_height="match_parent"
+			android:layout_width="match_parent">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical">
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:layout_margin="10dp"
+					android:padding="12dp"
+					android:background="@drawable/yuanjiao2"
+					android:elevation="2dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="问题或建议"
+						android:textStyle="bold"
+						android:textSize="17sp"
+						android:layout_marginBottom="10dp"
+						android:layout_marginTop="5dp"/>
+
+					<android.support.design.widget.TextInputLayout
+						xmlns:app="http://schemas.android.com/apk/res-auto"
+						app:counterEnabled="true"
+						app:counterMaxLength="20"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="4dp"
+						android:id="@+id/bmobfankuiTextInputLayout1">
+
+						<EditText
+							android:singleLine="true"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:hint="标题"
+							android:id="@+id/bmobfankuiEditText1"/>
+
+					</android.support.design.widget.TextInputLayout>
+
+					<android.support.design.widget.TextInputLayout
+						xmlns:app="http://schemas.android.com/apk/res-auto"
+						app:counterEnabled="true"
+						app:counterMaxLength="200"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="4dp"
+						android:id="@+id/bmobfankuiTextInputLayout2">
+
+						<EditText
+							android:layout_width="match_parent"
+							android:layout_height="120dp"
+							android:hint="描述"
+							android:gravity="top"
+							android:id="@+id/bmobfankuiEditText2"/>
+
+					</android.support.design.widget.TextInputLayout>
+
+					<LinearLayout
+						android:layout_height="wrap_content"
+						android:layout_width="match_parent"
+						android:orientation="horizontal"
+						android:layout_marginTop="10dp"
+						android:gravity="center_vertical">
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:text="设备信息"
+							android:layout_weight="1.0"
+							android:textSize="18sp"/>
+
+						<ImageButton
+							android:background="?android:attr/selectableItemBackgroundBorderless"
+							android:layout_height="30dp"
+							android:layout_width="30dp"
+							android:src="@drawable/xia"
+							android:id="@+id/bmobfankuiImageButton1"
+							android:layout_margin="5dp"/>
+
+					</LinearLayout>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:layout_width="match_parent"
+						android:text="Text\ntextText\ntextText\ntextText\ntextText\ntextText\ntext"
+						android:id="@+id/bmobfankuiTextView1"
+						android:visibility="gone"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:layout_margin="10dp"
+					android:padding="12dp"
+					android:background="@drawable/yuanjiao2"
+					android:elevation="2dp"
+					android:layout_marginTop="0dp">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="联系方式"
+						android:textStyle="bold"
+						android:textSize="17sp"
+						android:layout_marginBottom="10dp"
+						android:layout_marginTop="5dp"/>
+
+					<android.support.design.widget.TextInputLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="4dp"
+						android:id="@+id/bmobfankuiTextInputLayout4">
+
+						<EditText
+							android:singleLine="true"
+							android:digits="0123456789"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:hint="QQ"
+							android:id="@+id/bmobfankuiEditText4"/>
+
+					</android.support.design.widget.TextInputLayout>
+					
+					<android.support.design.widget.TextInputLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="4dp"
+						android:id="@+id/bmobfankuiTextInputLayout3">
+
+						<EditText
+							android:singleLine="true"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:hint="微信"
+							android:id="@+id/bmobfankuiEditText3"/>
+
+					</android.support.design.widget.TextInputLayout>
+
+					
+
+					<!--
+					<android.support.design.widget.TextInputLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="4dp"
+						android:id="@+id/bmobfankuiTextInputLayout5">
+
+						<EditText
+							android:singleLine="true"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:hint="邮箱"
+							android:id="@+id/bmobfankuiEditText5"/>
+
+					</android.support.design.widget.TextInputLayout>
+					-->
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</ScrollView>
+
+		<android.support.design.widget.FloatingActionButton
+			android:background="?android:attr/selectableItemBackgroundBorderless"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="bottom|end"
+			android:layout_margin="20dp"
+			android:src="@drawable/fasong"
+			android:elevation="5dp"
+			android:id="@+id/bmobfankuiFloatingActionButton1"/>
+
+	</android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>
+

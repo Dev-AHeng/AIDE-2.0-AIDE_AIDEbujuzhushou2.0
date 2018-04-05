@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:background="#FFFFFF">
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_height="190dp"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+				android:background="@drawable/hengbs">
+
+				<LinearLayout
+					android:layout_height="180dp"
+					android:layout_width="wrap_content"
+					android:orientation="vertical"
+					android:gravity="bottom"
+					android:layout_marginLeft="20dp"
+					android:layout_marginBottom="10dp">
+
+					<LinearLayout
+						android:layout_height="60dp"
+						android:layout_width="60dp"
+						android:orientation="vertical"
+						android:background="@drawable/hengz1"
+						android:gravity="center"
+						android:id="@+id/chehuaLinearLayout1">
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:text="HENG"
+							android:textColor="#FFFFFF"
+							android:textStyle="bold"/>
+
+					</LinearLayout>
+
+					<TextView
+						android:layout_height="32dp"
+						android:layout_width="match_parent"
+						android:text="By.小亨"
+						android:textSize="14sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:gravity="center"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+
