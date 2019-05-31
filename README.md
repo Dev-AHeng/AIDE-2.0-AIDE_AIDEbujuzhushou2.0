@@ -1,4 +1,3 @@
-# 欢迎star
 <update-bady>
 	<update-title>更新标题</update-title>
 	<update-version>1.0</update-version>
